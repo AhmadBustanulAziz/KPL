@@ -214,6 +214,8 @@ class FileHandler extends BaseHandler
 	 *
 	 * @return boolean
 	 */
+	
+	/*
 	public function write($sessionID, $sessionData): bool
 	{
 		// If the two IDs don't match, we have a session_regenerate_id() call
@@ -261,7 +263,7 @@ class FileHandler extends BaseHandler
 
 		return true;
 	}
-
+	*/
 	//--------------------------------------------------------------------
 
 	/**

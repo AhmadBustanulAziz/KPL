@@ -195,6 +195,8 @@ class DatabaseHandler extends BaseHandler
 	 *
 	 * @return boolean
 	 */
+	
+	/*
 	public function write($sessionID, $sessionData): bool
 	{
 		if ($this->lock === false)
@@ -254,6 +256,7 @@ class DatabaseHandler extends BaseHandler
 
 		return true;
 	}
+	*/
 
 	//--------------------------------------------------------------------
 

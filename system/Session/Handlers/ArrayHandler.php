@@ -67,10 +67,13 @@ class ArrayHandler extends BaseHandler
 	 *
 	 * @return boolean
 	 */
+
+	 /*
 	public function write($sessionID, $sessionData): bool
 	{
 		return true;
 	}
+	*/
 
 	//--------------------------------------------------------------------
 

@@ -183,6 +183,7 @@ class MemcachedHandler extends BaseHandler
 	 *
 	 * @return boolean
 	 */
+	/*
 	public function write($sessionID, $sessionData): bool
 	{
 		if (! isset($this->memcached))
@@ -223,7 +224,7 @@ class MemcachedHandler extends BaseHandler
 
 		return false;
 	}
-
+	*/
 	//--------------------------------------------------------------------
 
 	/**

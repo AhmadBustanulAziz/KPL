@@ -191,6 +191,7 @@ class RedisHandler extends BaseHandler
 	 *
 	 * @return boolean
 	 */
+	/*
 	public function write($sessionID, $sessionData): bool
 	{
 		if (! isset($this->redis))
@@ -231,7 +232,7 @@ class RedisHandler extends BaseHandler
 
 		return false;
 	}
-
+	*/
 	//--------------------------------------------------------------------
 
 	/**
