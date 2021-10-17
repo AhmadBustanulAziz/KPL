@@ -9,23 +9,23 @@
     <div class="container">
         <div class="card">
             <div class="card-body" style="padding: 48px;">
-                <p class="title">Profil <?= $data_organisasi[0]['nama_organisasi']; ?></p>
+                <p class="title">Profil <?= htmlspecialchars($data_organisasi[0]['nama_organisasi']) ?></p>
                 <hr>
                 <table class="table table-striped w-50 m-auto table-responsive">
                     <tr>
                         <td>Pendiri</td>
                         <td>:</td>
-                        <td><?= $data_organisasi[0]['pendiri']; ?></td>
+                        <td><?= htmlspecialchars($data_organisasi[0]['pendiri']) ?></td>
                     </tr>
                     <tr>
                         <td>Pembina</td>
                         <td>:</td>
-                        <td><?= $data_organisasi[0]['pembina']; ?></td>
+                        <td><?= htmlspecialchars($data_organisasi[0]['pembina']) ?></td>
                     </tr>
                     <tr>
                         <td>Penasihat</td>
                         <td>:</td>
-                        <td><?= $data_organisasi[0]['penasihat']; ?></td>
+                        <td><?= htmlspecialchars($data_organisasi[0]['penasihat']) ?></td>
                     </tr>
                 </table>
                 <br>
@@ -36,9 +36,9 @@
                         <th class="text-center col-3">Bendahara</th>
                     </tr>
                     <tr>
-                        <td class="col-3"><?= htmlspecialchars($data_organisasi[0]['ketua']); ?></td>
-                        <td class="col-3"><?= htmlspecialchars($data_organisasi[0]['sekretaris']); ?></td>
-                        <td class="col-3"><?= htmlspecialchars($data_organisasi[0]['bendahara']); ?></td>
+                        <td class="col-3"><?= $data_organisasi[0]['ketua']; ?></td>
+                        <td class="col-3"><?= $data_organisasi[0]['sekretaris']; ?></td>
+                        <td class="col-3"><?= $data_organisasi[0]['bendahara']; ?></td>
                     </tr>
                 </table>
                 <br>
@@ -84,27 +84,27 @@
                     <tr>
                         <td>Waktu Pendirian</td>
                         <td>:</td>
-                        <td><?= htmlspecialchars($data_organisasi[0]['waktu']); ?></td>
+                        <td><?= $data_organisasi[0]['waktu']; ?></td>
                     </tr>
                     <tr>
                         <td>Alamat Kantor</td>
                         <td>:</td>
-                        <td><?= htmlspecialchars($data_organisasi[0]['alamat']); ?></td>
+                        <td><?= $data_organisasi[0]['alamat']; ?></td>
                     </tr>
                     <tr>
                         <td>Kecamatan</td>
                         <td>:</td>
-                        <td><?= htmlspecialchars($data_organisasi[0]['nama']); ?></td>
+                        <td><?= $data_organisasi[0]['nama']; ?></td>
                     </tr>
                     <tr>
                         <td>Kontak</td>
                         <td>:</td>
-                        <td><?= htmlspecialchars($data_organisasi[0]['email']); ?></td>
+                        <td><?= $data_organisasi[0]['email']; ?></td>
                     </tr>
                     <tr>
                         <td></td>
                         <td></td>
-                        <td><?= htmlspecialchars($data_organisasi[0]['no_telepon']); ?></td>
+                        <td><?= $data_organisasi[0]['no_telepon']; ?></td>
                     </tr>
                 </table>
             </div>
