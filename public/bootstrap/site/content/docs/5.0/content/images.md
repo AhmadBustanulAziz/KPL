@@ -31,7 +31,6 @@ Align images with the [helper float classes]({{< docsref "/utilities/float" >}})
 {{< placeholder width="200" height="200" class="rounded float-end" >}}
 {{< /example >}}
 
-
 {{< example >}}
 {{< placeholder width="200" height="200" class="rounded mx-auto d-block" >}}
 {{< /example >}}
@@ -41,7 +40,6 @@ Align images with the [helper float classes]({{< docsref "/utilities/float" >}})
   {{< placeholder width="200" height="200" class="rounded" >}}
 </div>
 {{< /example >}}
-
 
 ## Picture
 

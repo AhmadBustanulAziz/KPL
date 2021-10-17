@@ -9,23 +9,23 @@
     <div class="container">
         <div class="card">
             <div class="card-body" style="padding: 48px;">
-                <p class="title">Profil <?= htmlspecialchars($data_organisasi[0]['nama_organisasi']); ?></p>
+                <p class="title">Profil <?= $data_organisasi[0]['nama_organisasi']; ?></p>
                 <hr>
                 <table class="table table-striped w-50 m-auto table-responsive">
                     <tr>
                         <td>Pendiri</td>
                         <td>:</td>
-                        <td><?= htmlspecialchars($data_organisasi[0]['pendiri']); ?></td>
+                        <td><?= $data_organisasi[0]['pendiri']; ?></td>
                     </tr>
                     <tr>
                         <td>Pembina</td>
                         <td>:</td>
-                        <td><?= htmlspecialchars($data_organisasi[0]['pembina']); ?></td>
+                        <td><?= $data_organisasi[0]['pembina']; ?></td>
                     </tr>
                     <tr>
                         <td>Penasihat</td>
                         <td>:</td>
-                        <td><?= htmlspecialchars($data_organisasi[0]['penasihat']); ?></td>
+                        <td><?= $data_organisasi[0]['penasihat']; ?></td>
                     </tr>
                 </table>
                 <br>

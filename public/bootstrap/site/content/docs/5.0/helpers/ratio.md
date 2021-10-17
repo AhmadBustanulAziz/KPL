@@ -73,7 +73,6 @@ This CSS variable makes it easy to modify the aspect ratio across breakpoints. T
 </div>
 {{< /example >}}
 
-
 ## Sass map
 
 Within `_variables.scss`, you can change the aspect ratios you want to use. Here's our default `$ratio-aspect-ratios` map. Modify the map as you like and recompile your Sass to put them to use.

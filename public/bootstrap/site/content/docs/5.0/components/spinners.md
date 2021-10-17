@@ -171,7 +171,6 @@ Use spinners within buttons to indicate an action is currently processing or tak
 </button>
 {{< /example >}}
 
-
 [color]:   {{< docsref "/utilities/colors" >}}
 [display]: {{< docsref "/utilities/display" >}}
 [flex]:    {{< docsref "/utilities/flex" >}}

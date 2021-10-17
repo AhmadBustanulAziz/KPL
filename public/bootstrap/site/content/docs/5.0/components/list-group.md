@@ -254,7 +254,6 @@ And if you want `<label>`s as the `.list-group-item` for large hit areas, you ca
 </div>
 {{< /example >}}
 
-
 ## JavaScript behavior
 
 Use the tab JavaScript plugin—include it individually or through the compiled `bootstrap.js` file—to extend our list group to create tabbable panes of local content.
@@ -400,7 +399,6 @@ Activates a list item element and content container. Tab should have either a `d
   firstTab.show()
 </script>
 ```
-
 #### show
 
 Selects the given list item and shows its associated pane. Any other list item that was previously selected becomes unselected and its associated pane is hidden. **Returns to the caller before the tab pane has actually been shown** (for example, before the `shown.bs.tab` event occurs).

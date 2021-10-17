@@ -871,7 +871,6 @@ Manually toggles a modal. **Returns to the caller before the modal has actually 
 ```js
 myModal.toggle()
 ```
-
 #### show
 
 Manually opens a modal. **Returns to the caller before the modal has actually been shown** (i.e. before the `shown.bs.modal` event occurs).

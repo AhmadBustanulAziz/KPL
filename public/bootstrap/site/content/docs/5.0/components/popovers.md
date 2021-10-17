@@ -306,13 +306,11 @@ var popover = new bootstrap.Popover(element, {
   }
 })
 ```
-
 ### Methods
 
 {{< callout danger >}}
 {{< partial "callout-danger-async-methods.md" >}}
 {{< /callout >}}
-
 
 #### show
 

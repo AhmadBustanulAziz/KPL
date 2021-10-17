@@ -78,7 +78,6 @@ You can also remove the divider setting `--bs-breadcrumb-divider: '';` (empty st
 </nav>
 {{< /example >}}
 
-
 ```scss
 $breadcrumb-divider: none;
 ```
