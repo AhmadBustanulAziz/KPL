@@ -4,14 +4,14 @@
 <link rel="stylesheet" href="<?php echo base_url('css/aduan.css'); ?>">
 <?= $this->endSection() ?>
 
-<?= $this->htmlspecialchars(section('content')) ?>
+<?= $this->section('content') ?>
 <div class="content">
     <div class="container">
         <div class="card">
             <div class="card-body" style="padding: 48px;">
                 <p class="title">Laporan Ormas</p>
                 <hr>
-                <?= htmlspecialchars(form_open_multipart("laporan/store")) ?>
+                <?= form_open_multipart("laporan/store") ?>
                 <div class="row g-3">
                     <div class="col">
                         <label for="name" class="form-label">Nama Organisasi</label>
