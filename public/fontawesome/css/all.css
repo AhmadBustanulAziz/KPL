@@ -19,7 +19,7 @@
 .fa-lg {
   font-size: 1.33333em;
   line-height: 0.75em;
-  vertical-align: -.0667em; }
+  vertical-align: -0.0667em; }
 
 .fa-xs {
   font-size: .75em; 
@@ -79,6 +79,7 @@
   margin-left: 2.5em;
   padding-left: 0; 
 }
+
   .fa-ul > li {
     position: relative; 
   }
@@ -135,9 +136,10 @@
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); 
           }
+          
   100% {
     -webkit-transform: rotate(360deg);
-        transform: rotate(360deg); } }
+            transform: rotate(360deg); } }
 
 @keyframes fa-spin {
   0% {

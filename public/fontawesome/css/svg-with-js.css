@@ -10,29 +10,41 @@ svg:not(:root).svg-inline--fa {
   font-size: inherit;
   height: 1em;
   overflow: visible;
-  vertical-align: -.125em; }
+  vertical-align: -0.125em; }
+
   .svg-inline--fa.fa-lg {
-    vertical-align: -.225em; }
+    vertical-align: -0.225em; }
+
   .svg-inline--fa.fa-w-1 {
     width: 0.0625em; }
+
   .svg-inline--fa.fa-w-2 {
     width: 0.125em; }
+
   .svg-inline--fa.fa-w-3 {
     width: 0.1875em; }
+
   .svg-inline--fa.fa-w-4 {
     width: 0.25em; }
+
   .svg-inline--fa.fa-w-5 {
     width: 0.3125em; }
+
   .svg-inline--fa.fa-w-6 {
     width: 0.375em; }
+
   .svg-inline--fa.fa-w-7 {
     width: 0.4375em; }
+
   .svg-inline--fa.fa-w-8 {
     width: 0.5em; }
+
   .svg-inline--fa.fa-w-9 {
     width: 0.5625em; }
+
   .svg-inline--fa.fa-w-10 {
     width: 0.625em; }
+    
   .svg-inline--fa.fa-w-11 {
     width: 0.6875em; }
   .svg-inline--fa.fa-w-12 {
@@ -157,13 +169,13 @@ svg:not(:root).svg-inline--fa {
 .fa-lg {
   font-size: 1.33333em;
   line-height: 0.75em;
-  vertical-align: -.0667em; }
+  vertical-align: -0.0667em; }
 
 .fa-xs {
   font-size: 0.75em; }
 
 .fa-sm {
-  font-size: .875em; }
+  font-size: 0.875em; }
 
 .fa-1x {
   font-size: 1em; }
@@ -215,8 +227,8 @@ svg:not(:root).svg-inline--fa {
 
 .fa-border {
   border: solid 0.08em #eee;
-  border-radius: .1em;
-  padding: .2em .25em .15em; }
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em; }
 
 .fa-pull-left {
   float: left; }
@@ -236,7 +248,7 @@ svg:not(:root).svg-inline--fa {
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
-  margin-left: .3em; }
+  margin-left: 0.3em; }
 
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;

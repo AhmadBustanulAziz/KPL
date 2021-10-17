@@ -19,13 +19,13 @@
 .fa-lg {
   font-size: 1.33333em;
   line-height: 0.75em;
-  vertical-align: -.0667em; }
+  vertical-align: -0.0667em; }
 
 .fa-xs {
   font-size: 0.75em; }
 
 .fa-sm {
-  font-size: .875em; }
+  font-size: 0.875em; }
 
 .fa-1x {
   font-size: 1em; }
@@ -77,8 +77,8 @@
 
 .fa-border {
   border: solid 0.08em #eee;
-  border-radius: .1em;
-  padding: .2em .25em .15em; }
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em; }
 
 .fa-pull-left {
   float: left; }
@@ -98,7 +98,7 @@
 .far.fa-pull-right,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
-  margin-left: .3em; }
+  margin-left: 0.3em; }
 
 .fa-spin {
   -webkit-animation: fa-spin 2s infinite linear;
