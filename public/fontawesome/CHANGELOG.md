@@ -22,7 +22,7 @@ not have access**
 
 ### Changed
 
-* Support release to improve Font Awesome Kits performance
+    * Support release to improve Font Awesome Kits performance
 
 ---
 
@@ -30,13 +30,13 @@ not have access**
 
 ### Changed
 
-* Update to the ravelry brand icon
+    * Update to the ravelry brand icon
 
 ### Fixed
 
-* Removed fill attribute from the vest and vest-patches icon
-* Moved attribution comment to correct location for sprites
-* Fixed duotone icons not rendering in Kits
+    * Removed fill attribute from the vest and vest-patches icon
+    * Moved attribution comment to correct location for sprites
+    * Fixed duotone icons not rendering in Kits
 
 ---
 
@@ -48,19 +48,19 @@ information.**
 
 ### Added
 
-* Added guilded, hive, innosoft, instalod, ns8, octopus-deploy, perbyte,
+    * Added guilded, hive, innosoft, instalod, ns8, octopus-deploy perbyte,
   uncharted, watchman-monitoring, wodu sponsored brand icons
-* Added commissioned vest and vest-patch icon
-* Added cloudflare brand icon
+    * Added commissioned vest and vest-patch icon
+    * Added cloudflare brand icon
 
 ### Changed
 
-* Removed the adobe icon at the request of Adobe
-* Update rocketchat brand icon
+    * Removed the adobe icon at the request of Adobe
+    * Update rocketchat brand icon
 
 ### Fixed
 
-* Conflict detection now includes Kits when checking for conflicts
+    * Conflict detection now includes Kits when checking for conflicts
 
 ---
 
@@ -72,8 +72,8 @@ information.**
 
 ### Fixed
 
-* Corrected rendering issue with the tripadvisor brand icon in Windows 10 FortAwesome/Font-Awesome#16817
-* Corrected unicode values that were outside the Unicode Private Use Area (PUA) FortAwesome/Font-Awesome#16804
+    * Corrected rendering issue with the tripadvisor brand icon in Windows 10 FortAwesome/Font-Awesome#16817
+    * Corrected unicode values that were outside the Unicode Private Use Area (PUA) FortAwesome/Font-Awesome#16804
 
 ---
 
@@ -81,35 +81,35 @@ information.**
 
 ### Added
 
-* New brand icons deezer, edge-legacy, google-pay, rust, tiktok, and unsplash
-* Icons sink, users-slash, bacteria, and bacterium added to Font Awesome Free
+    * New brand icons deezer, edge-legacy, google-pay, rust, tiktok, and unsplash
+    * Icons sink, users-slash, bacteria, and bacterium added to Font Awesome Free
 
 ### Changed
 
-* Updated brand icons bandcamp, google-plus, tripadvisor, and yahoo
+    * Updated brand icons bandcamp, google-plus, tripadvisor, and yahoo
 
 ### Fixed
 
-* Icon hand-holding-water missing 5.13.0 in its versions
+    * Icon hand-holding-water missing 5.13.0 in its versions
 
 ---
 
 ## [5.13.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.13.0) - 2020-03-23
 
 ### Added
-* New icons related to COVID-19
-* Added the ability to specify mask ID and title ID for SVG with JS which allows
-  snapshot testing tools to get a predictable result when executing tests
+    * New icons related to COVID-19
+    * Added the ability to specify mask ID and title ID for SVG with JS which allows
+      snapshot testing tools to get a predictable result when executing tests
 
 ### Changed
-* Explicitly set font-display to block which supresses warnings of font-display
-  in tools like Lighthouse
+    * Explicitly set font-display to block which supresses warnings of font-display
+      in tools like Lighthouse
 
 ### Fixed
-* Corrected version 4 font face shim src attribute declaration that was warning
-  of incorrect font file format
-* Fixed font family name to be 'Font Awesome 5 Free' for free kits when using
-  pseudo-elements
+    * Corrected version 4 font face shim src attribute declaration that was warning
+      of incorrect font file format
+    * Fixed font family name to be 'Font Awesome 5 Free' for free kits when using
+      pseudo-elements
 
 ---
 
