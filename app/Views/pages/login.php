@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php echo htmlspecialchars(base_url('css/login.css')); ?>">
+    <link rel="stylesheet" href="<?php base_url('css/login.css'); ?>">
 
     <?= $this->include("pages/jquery") ?>
 
