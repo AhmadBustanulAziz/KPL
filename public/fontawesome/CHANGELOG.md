@@ -14,7 +14,7 @@ not have access**
 
 ### Changed
 
-* Updated air-freshener's design due to trademark violation notice
+    * Updated air-freshener's design due to trademark violation notice
 
 ---
 
