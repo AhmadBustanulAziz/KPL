@@ -296,7 +296,7 @@ if (! function_exists('form_textarea'))
 		}
 
 		return '<textarea ' . rtrim(parse_form_attributes($data, $defaults)) . stringify_attributes($extra) . '>'
-				. htmlspecialchars($val)
+				. htmlescape($val)
 				. "</textarea>\n";
 	}
 }

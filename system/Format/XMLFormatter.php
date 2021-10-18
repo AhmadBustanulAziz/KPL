@@ -72,7 +72,7 @@ class XMLFormatter implements FormatterInterface
 			else
 			{
 				$key = $this->normalizeXMLTag($key);
-				$output->addChild("$key", htmlspecialchars("$value"));
+				$output->addChild("$key", htmlescape("$value"));
 			}
 		}
 	}
