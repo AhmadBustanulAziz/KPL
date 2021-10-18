@@ -139,6 +139,7 @@
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
   }
+
   100% {
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
@@ -150,6 +151,7 @@
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
   }
+  
   100% {
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
@@ -160,19 +162,19 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
-  }
+}
 
 .fa-rotate-180 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
-  }
+}
 
 .fa-rotate-270 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
-  }
+}
 
 .fa-flip-horizontal {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
@@ -6078,7 +6080,8 @@ readers do not read off random characters that represent icons */
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 1px; }
+  width: 1px;
+}
 
 .sr-only-focusable:active, 
 .sr-only-focusable:focus {
@@ -6087,7 +6090,9 @@ readers do not read off random characters that represent icons */
   margin: 0;
   overflow: visible;
   position: static;
-  width: auto; }
+  width: auto;
+}
+
 @font-face {
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
@@ -6099,7 +6104,9 @@ readers do not read off random characters that represent icons */
 
 .fab {
   font-family: 'Font Awesome 5 Brands';
-  font-weight: 400; }
+  font-weight: 400;
+}
+
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
