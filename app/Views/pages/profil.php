@@ -15,7 +15,7 @@
                     <tr>
                         <td>Pendiri</td>
                         <td>:</td>
-                        <td><?= $data_organisasi[0]['pendiri']; ?></td>
+                        <td><?= html_escape($data_organisasi[0]['pendiri']); ?></td>
                     </tr>
                     <tr>
                         <td>Pembina</td>
