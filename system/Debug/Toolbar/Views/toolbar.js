@@ -161,12 +161,12 @@ var ciDebugBar = {
 	toggleToolbar : function () {
 		var open = ciDebugBar.toolbar.style.display != 'none';
 
-		ciDebugBar.icon.style.display    = open == true ? 'inline-block' : 'none';
-		ciDebugBar.toolbar.style.display = open == false ? 'inline-block' : 'none';
+		ciDebugBar.icon.style.display    = open === true ? 'inline-block' : 'none';
+		ciDebugBar.toolbar.style.display = open === false ? 'inline-block' : 'none';
 
 		// Remember it for other page loads on this site
 		ciDebugBar.createCookie('debug-bar-state', '', -1);
-		ciDebugBar.createCookie('debug-bar-state', open == true ? 'minimized' : 'open' , 365);
+		ciDebugBar.createCookie('debug-bar-state', open === true ? 'minimized' : 'open' , 365);
 	},
 
 	//--------------------------------------------------------------------
@@ -595,7 +595,7 @@ var ciDebugBar = {
 			{
 				c = c.substring(1,c.length);
 			}
-			if (c.indexOf(nameEQ) == 0)
+			if (c.indexOf(nameEQ) === 0)
 			{
 				return c.substring(nameEQ.length,c.length);
 			}
