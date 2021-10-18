@@ -9,13 +9,13 @@
     <div class="container">
         <div class="card">
             <div class="card-body" style="padding: 48px;">
-                <p class="title">Profil <?= html_escape($data_organisasi[0]['nama_organisasi']); ?></p>
+                <p class="title">Profil <?= escape($data_organisasi[0]['nama_organisasi']); ?></p>
                 <hr>
                 <table class="table table-striped w-50 m-auto table-responsive">
                     <tr>
                         <td>Pendiri</td>
                         <td>:</td>
-                        <td><?= html_escape($data_organisasi[0]['pendiri']); ?></td>
+                        <td><?= $data_organisasi[0]['pendiri']; ?></td>
                     </tr>
                     <tr>
                         <td>Pembina</td>
