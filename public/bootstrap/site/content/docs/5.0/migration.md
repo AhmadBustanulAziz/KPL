@@ -127,7 +127,7 @@ Breakpoints specific variants are consequently renamed too (e.g. `.text-md-start
 
 ### Utilities
 
-- **Text utilities:**
+    - **Text utilities:**
       - Added `.fs-*` utilities for `font-size` utilities (with RFS enabled). These use the same scale as HTML's default headings (1-6, large to small), and can be modified via Sass map.
       - Renamed `.font-weight-*` utilities as `.fw-*` for brevity and consistency.
       - Renamed `.font-style-*` utilities as `.fst-*` for brevity and consistency.
