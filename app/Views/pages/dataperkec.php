@@ -1,6 +1,6 @@
 <?= $this->extend('layout/page_layout') ?>
 
-<?= $this->section('style') ?>
+<?= esc($this->section('style')) ?>
 
 <?= $this->endSection() ?>
 
