@@ -22,10 +22,10 @@
         <hr>
         <?php if (!empty(session()->getFlashdata('error'))) : ?>
             <div class="alert alert-danger alert-dismissible show" role="alert">
-                <?php echo $session->getFlashdata('error'); ?>
+                <?php echo session()->getFlashdata('error'); ?>
             </div>
         <?php endif; ?>
-        <?= form_open("/login/auth") ?>
+        <?= esc(form_open("/login/auth")) ?>
             <div class="form-group">
                 <label>Username</label>
                 <div class="input-group">
@@ -49,7 +49,7 @@
                 <button type="submit" class="btn btn-success"><i class="fas fa-sign-in-alt"
                         style="position: relative;"></i> Login</button>
             </div>
-        <?= form_close() ?>
+        <?= esc(form_close()) ?>
     </div>
 </body>
 
