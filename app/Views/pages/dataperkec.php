@@ -1,10 +1,10 @@
-<?= $this->extend('layout/page_layout') ?>
+<?= esc($this->extend('layout/page_layout')) ?>
 
 <?= esc($this->section('style')) ?>
 
 <?= esc($this->endSection()) ?>
 
-<?= $this->section('popup') ?>
+<?= esc($this->section('popup')) ?>
 <div id="popup-delete" class="hide"
     style="background-color: rgba(0, 0, 0, 0.5); width: 100vw; height: 100vh; position: fixed; z-index: 10;">
     <div class="card center-object text-center align-middle"
@@ -22,9 +22,9 @@
         </div>
     </div>
 </div>
-<?= $this->endsection() ?>
+<?= esc($this->endsection()) ?>
 
-<?= $this->section('content') ?>
+<?= esc($this->section('content')) ?>
 <div class="content">
     <div class="container">
         <div class="card">
@@ -65,9 +65,9 @@
                                     <tr>
                                         <th scope="row" class="text-center align-middle">
                                             <input type="text" class="form-control hide" name="id"
-                                                value="<?= $data["id"]; ?>">
+                                                value="<?= esc($data["id"]); ?>">
                                             <input type="text" class="form-control hide" name="kecamatan"
-                                                value="<?= $data["kecamatan"]; ?>">
+                                                value="<?= esc($data["kecamatan"]); ?>">
                                             <p><?= $i; ?></p>
                                         </th>
                                         <td class="col-sm-4 align-middle">
