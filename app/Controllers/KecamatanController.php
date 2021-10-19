@@ -18,7 +18,7 @@ class KecamatanController extends BaseController
 
 	public function index()
 	{
-		$title = "Data Kecamatan";
+		$title = "Data kecamatan";
 		
 		$list_kecamatan = $this->kecamatan->findAll();
 

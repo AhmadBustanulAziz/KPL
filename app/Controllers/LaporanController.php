@@ -20,7 +20,7 @@ class LaporanController extends BaseController
 	
 	public function index()
 	{
-        $title = "Laporan";
+        $title = "laporan";
         
         return view('pages/laporan', compact('title'));
 	}

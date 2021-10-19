@@ -76,9 +76,7 @@ class PendaftaranController extends BaseController {
 
                 $waktu = $this->request->getVar("waktu");
                 $waktu = date("Y-m-d");
-
-                echo $waktu;
-        
+ 
                 $data = [
                         "nama_organisasi" => $this->request->getVar("nama_organisasi"),
                         "bidang_kegiatan" => $this->request->getVar("bidang_kegiatan"),
