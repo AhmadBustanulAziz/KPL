@@ -2,7 +2,7 @@
 
 <?= esc($this->section('style')) ?>
 
-<?= $this->endSection() ?>
+<?= esc($this->endSection()) ?>
 
 <?= $this->section('popup') ?>
 <div id="popup-delete" class="hide"
