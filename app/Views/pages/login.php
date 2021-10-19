@@ -22,7 +22,7 @@
         <hr>
         <?php if (!empty(session()->getFlashdata('error'))) : ?>
             <div class="alert alert-danger alert-dismissible show" role="alert">
-                <?php echo session()->getFlashdata('error'); ?>
+                <?php echo $session->getFlashdata('error'); ?>
             </div>
         <?php endif; ?>
         <?= form_open("/login/auth") ?>
