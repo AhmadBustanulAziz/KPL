@@ -1,7 +1,7 @@
 <?= $this->extend('layout/page_layout') ?>
 
 <?= $this->section('style') ?>
-<link rel="stylesheet" href="<?php echo htmlspecialchars(base_url('css/aduan.css')); ?>">
+<link rel="stylesheet" href="<?php echo escape(base_url('css/aduan.css')); ?>">
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
