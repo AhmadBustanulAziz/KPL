@@ -25,7 +25,7 @@
                 <?php echo session()->getFlashdata('error'); ?>
             </div>
         <?php endif; ?>
-        <?= esc(form_open("/login/auth")) ?>
+        <?= form_open("/login/auth") ?>
             <div class="form-group">
                 <label>Username</label>
                 <div class="input-group">
@@ -49,7 +49,7 @@
                 <button type="submit" class="btn btn-success"><i class="fas fa-sign-in-alt"
                         style="position: relative;"></i> Login</button>
             </div>
-        <?= esc(form_close()) ?>
+        <?= form_close() ?>
     </div>
 </body>
 
